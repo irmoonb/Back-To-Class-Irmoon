@@ -17,5 +17,10 @@ public class Main
         System.out.println(nolan);
         System.out.println("what's his CTE pathway?" + nolan.getCtePathway());
         System.out.println(nolan.CTEPrint());
+
+        System.out.println();
+
+        Teacher frizzle = new Teacher("Frizzle", 32, "F", "Science", 66000);
+        System.out.println(frizzle);
     }
 }
